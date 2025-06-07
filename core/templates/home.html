@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>QuizAPI – Αρχική</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-brand">QuizAPI</span>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 class="mb-4"> Επιλέξτε Ενότητα</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <a href="/api/subjects/" class="text-decoration-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"> Μαθήματα (Subjects)</h5>
+                        <p class="card-text">Διαχείριση των μαθημάτων που ανήκουν στους χρήστες.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="/api/quizzes/" class="text-decoration-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"> Τεστ (Quizzes)</h5>
+                        <p class="card-text">Δημιουργία και διαχείριση quiz ανά μάθημα.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="/api/questions/" class="text-decoration-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"> Ερωτήσεις (Questions)</h5>
+                        <p class="card-text">Καταχώρηση ερωτήσεων ανά quiz.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="/api/answers/" class="text-decoration-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"> Απαντήσεις (Answers)</h5>
+                        <p class="card-text">Ορισμός σωστών και λανθασμένων απαντήσεων.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a href="/api/scores/" class="text-decoration-none">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"> Βαθμολογίες (Scores)</h5>
+                        <p class="card-text">Παρακολούθηση επιδόσεων των χρηστών.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center mt-5 text-muted small">
+    &copy; 2025 – QuizAPI Demo | Developed with ❤️ by George Kyriazakis using Django REST Framework
+</footer>
+
+
+</body>
+</html>
